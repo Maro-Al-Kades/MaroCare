@@ -1,0 +1,184 @@
+{
+  "navbar": {
+    "logo": "MaroCares",
+    "links": [
+      {
+        "title": "Home",
+        "path": "/"
+      },
+      {
+        "title": "Services",
+        "path": "/services"
+      },
+      {
+        "title": "Find Doctor",
+        "path": "/find-doctor"
+      },
+      {
+        "title": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "buttons": ["Login", "Register"]
+  },
+
+  "homePage": {
+    "hero": {
+      "title": "We help patients live a healthy, longer life",
+      "description": "MaroCares simplifies the process of scheduling medical appointments by allowing patients to find, book, and manage their doctor visits effortlessly. With an intuitive interface, users can search for healthcare professionals based on specialty, location, availability, and patient reviews.",
+      "button": "Request an Appointment",
+      "analytics": [
+        {
+          "number": "+30",
+          "title": "years of Experience"
+        },
+        {
+          "number": "+15",
+          "title": "Clinic Location"
+        },
+        {
+          "number": "100%",
+          "title": "Patient Sastifaction"
+        }
+      ]
+    },
+
+    "features": {
+      "title": "Providing the best medical services",
+      "description": "World-class care for everyone Our health System offers unmatched, export health care",
+
+      "cards": [
+        {
+          "title": "Find a Doctor",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Find a Location",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Book Appointment",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        }
+      ]
+    },
+
+    "about": {
+      "title": "Proud to be one of the nations best",
+      "description": "We take pride in being recognized as one of the nation’s top healthcare providers, dedicated to delivering exceptional medical care with a patient-first approach. Our team of experienced doctors and healthcare professionals leverage advanced technology and innovative treatments to ensure accurate diagnoses, effective treatments, and a seamless patient experience. Whether you need a routine checkup, specialized care, or emergency medical attention, we are here to provide compassionate and high-quality healthcare tailored to your needs. Your health and well-being are our top priorities, and we strive to make every visit a comfortable and reassuring experience.",
+      "button": "Learn More"
+    },
+
+    "services": {
+      "title": "Our Medical Services",
+      "description": "World-class care for everyone Our health System offers unmatched, export health care",
+      "cards": [
+        {
+          "title": "Cancer Care",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Heart Care",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Diabetes Care",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Psychiatric Care",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Physical Therapy",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        },
+        {
+          "title": "Speech Therapy",
+          "description": "World-class care for everyone Our health System offers unmatched, export health care",
+          "button": "Learn More"
+        }
+      ]
+    },
+
+    "cta": {
+      "title": "Get virtual treatment anytime.",
+      "points": [
+        "1. Schedule the appointment directly.",
+        "2. Search for your physician here, and contact their office.",
+        "3. View our physicians who are accepting new patients, use the online scheduling tool to select an appointment time."
+      ],
+      "button": "Learn More"
+    },
+
+    "bestDoctors": {
+      "title": "Top Rated Doctors",
+      "description": "World-class care for everyone Our health System offers unmatched, export health care"
+    },
+
+    "faq": {
+      "title": "Most Questions by our beloved patients",
+      "dropdowns": [
+        {
+          "title": "How can I book an appointment?",
+          "description": "You can book an appointment by searching for a doctor on our platform, selecting a suitable time slot, and confirming your booking online."
+        },
+        {
+          "title": "What should I bring to my appointment?",
+          "description": "Please bring your identification, insurance card (if applicable), a list of medications you’re taking, and any relevant medical records."
+        },
+        {
+          "title": "Do you accept insurance?",
+          "description": "Yes, we accept most major insurance plans. You can check with our support team to confirm if your insurance is accepted."
+        },
+        {
+          "title": "Can I reschedule or cancel my appointment?",
+          "description": "Yes, you can reschedule or cancel your appointment through your account dashboard. Please ensure you do so at least 24 hours in advance."
+        },
+        {
+          "title": "Are virtual consultations available?",
+          "description": "Yes, we offer virtual consultations with our doctors. You can schedule an online appointment and meet your doctor via video call."
+        }
+      ]
+    }
+  },
+
+  "find-doctor": {
+    "title": "Find a Doctor",
+    "search": {
+      "placeholder": "Search for a doctor by name, specialty, or location",
+      "button": "Search"
+    }
+  },
+
+  "doctor-id": {
+    "card": {
+      "ticket": "Ticket Price",
+      "price": "120 $",
+      "timeTitle": "Available Time Slots:",
+      "availableTime": [
+        {
+          "day": "Sunday",
+          "time": "4.30 pm : 9:40 pm"
+        },
+        {
+          "day": "Tuesday",
+          "time": "4.30 pm : 9:40 pm"
+        },
+        {
+          "day": "Wednesday",
+          "time": "4.30 pm : 9:40 pm"
+        }
+      ],
+      "button": "Book Appointment"
+    }
+  }
+}

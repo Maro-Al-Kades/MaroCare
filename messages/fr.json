@@ -1,0 +1,169 @@
+{
+  "navbar": {
+    "logo": "MaroCares",
+    "links": [
+      {
+        "title": "Accueil",
+        "path": "/"
+      },
+      {
+        "title": "Services",
+        "path": "/services"
+      },
+      {
+        "title": "Trouver un médecin",
+        "path": "/find-doctor"
+      },
+      {
+        "title": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "buttons": ["Connexion", "S'inscrire"]
+  },
+  "homePage": {
+    "hero": {
+      "title": "Nous aidons les patients à vivre une vie saine et plus longue",
+      "description": "MaroCares simplifie le processus de prise de rendez-vous médicaux en permettant aux patients de trouver, réserver et gérer leurs consultations facilement. Grâce à une interface intuitive, les utilisateurs peuvent rechercher des professionnels de santé en fonction de leur spécialité, de leur emplacement, de leur disponibilité et des avis des patients.",
+      "button": "Prendre un rendez-vous",
+      "analytics": [
+        {
+          "number": "+30",
+          "title": "années d'expérience"
+        },
+        {
+          "number": "+15",
+          "title": "Cliniques"
+        },
+        {
+          "number": "100%",
+          "title": "Satisfaction des patients"
+        }
+      ]
+    },
+    "features": {
+      "title": "Offrir les meilleurs services médicaux",
+      "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise.",
+      "cards": [
+        {
+          "title": "Trouver un médecin",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise.",
+          "button": "Learn More"
+        },
+        {
+          "title": "Trouver un établissement",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise.",
+          "button": "Learn More"
+        },
+        {
+          "title": "Prendre un rendez-vous",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise.",
+          "button": "Learn More"
+        }
+      ]
+    },
+    "about": {
+      "title": "Fiers d'être l'un des meilleurs du pays",
+      "description": "Nous sommes fiers d'être reconnus comme l'un des meilleurs prestataires de soins de santé du pays. Notre approche centrée sur le patient garantit des soins médicaux exceptionnels. Notre équipe de médecins et de professionnels de la santé expérimentés utilise des technologies avancées et des traitements innovants pour assurer des diagnostics précis, des soins efficaces et une expérience fluide pour les patients. Votre santé et votre bien-être sont notre priorité.",
+      "button": "En savoir plus"
+    },
+    "services": {
+      "title": "Nos services médicaux",
+      "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise.",
+      "cards": [
+        {
+          "title": "Soins du cancer",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        },
+        {
+          "title": "Soins cardiaques",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        },
+        {
+          "title": "Soins du diabète",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        },
+        {
+          "title": "Soins psychiatriques",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        },
+        {
+          "title": "Physiothérapie",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        },
+        {
+          "title": "Orthophonie",
+          "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Recevez un traitement virtuel à tout moment",
+      "points": [
+        "1. Planifiez le rendez-vous directement.",
+        "2. Recherchez votre médecin ici et contactez son cabinet.",
+        "3. Consultez nos médecins qui acceptent de nouveaux patients et utilisez l'outil de planification en ligne pour choisir un créneau horaire."
+      ],
+      "button": "En savoir plus"
+    },
+    "bestDoctors": {
+      "title": "Les meilleurs médecins",
+      "description": "Des soins de classe mondiale pour tous. Notre système de santé offre des soins médicaux inégalés et d'expertise."
+    },
+    "faq": {
+      "title": "Questions les plus fréquentes de nos patients bien-aimés",
+      "dropdowns": [
+        {
+          "title": "Comment puis-je prendre rendez-vous ?",
+          "description": "Vous pouvez prendre rendez-vous en recherchant un médecin sur notre plateforme, en sélectionnant un créneau horaire disponible et en confirmant votre réservation en ligne."
+        },
+        {
+          "title": "Que dois-je apporter à mon rendez-vous ?",
+          "description": "Veuillez apporter votre pièce d’identité, votre carte d’assurance (si applicable), une liste des médicaments que vous prenez et tout dossier médical pertinent."
+        },
+        {
+          "title": "Acceptez-vous les assurances santé ?",
+          "description": "Oui, nous acceptons la plupart des assurances santé. Vous pouvez vérifier avec notre service d'assistance si votre assurance est acceptée."
+        },
+        {
+          "title": "Puis-je modifier ou annuler mon rendez-vous ?",
+          "description": "Oui, vous pouvez modifier ou annuler votre rendez-vous depuis votre tableau de bord. Veuillez le faire au moins 24 heures à l'avance."
+        },
+        {
+          "title": "Proposez-vous des consultations en ligne ?",
+          "description": "Oui, nous offrons des consultations médicales en ligne. Vous pouvez prendre rendez-vous pour une consultation virtuelle et parler à votre médecin par visioconférence."
+        }
+      ]
+    }
+  },
+
+  "find-doctor": {
+    "title": "Trouver un médecin",
+    "search": {
+      "placeholder": "Recherchez un médecin par nom, spécialité ou emplacement",
+      "button": "Rechercher"
+    }
+  },
+  "doctor-id": {
+    "card": {
+      "ticket": "Prix du billet",
+      "price": "120 $",
+      "timeTitle": "Créneaux horaires disponibles",
+      "availableTime": [
+        {
+          "day": "Dimanche",
+          "time": "16h30 - 21h40"
+        },
+        {
+          "day": "Mardi",
+          "time": "16h30 - 21h40"
+        },
+        {
+          "day": "Mercredi",
+          "time": "16h30 - 21h40"
+        }
+      ],
+      "button": "Prendre rendez-vous"
+    }
+  }
+}
