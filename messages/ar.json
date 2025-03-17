@@ -19,7 +19,10 @@
         "path": "/contact"
       }
     ],
-    "buttons": ["تسجيل الدخول", "إنشاء حساب"]
+    "buttons": [
+      { "title": "تسجيل الدخول", "path": "/auth/login" },
+      { "title": "إنشاء حساب", "path": "/auth/register" }
+    ]
   },
 
   "homePage": {
@@ -158,6 +161,7 @@
       "button": "بحث"
     }
   },
+
   "doctor-id": {
     "card": {
       "ticket": "سعر التذكرة",
@@ -179,5 +183,57 @@
       ],
       "button": "احجز موعدًا"
     }
+  },
+
+  "login-page": {
+    "title": "تسجيل الدخول إلى حسابك",
+    "description": "أدخل بياناتك للوصول إلى حسابك",
+    "form": {
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور"
+      }
+    },
+    "button": "تسجيل الدخول",
+    "account": "ليس لديك حساب؟",
+    "register": "أنشئ حساب الآن"
+  },
+
+  "register-page": {
+    "title": "إنشاء حسابك الطبي",
+    "description": "أدخل بياناتك للتسجيل",
+    "form": {
+      "fullName": {
+        "label": "الاسم الكامل",
+        "placeholder": "أدخل اسمك الكامل"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك"
+      },
+      "bloodType": {
+        "label": "فصيلة الدم",
+        "placeholder": "اختر فصيلة الدم"
+      },
+      "gender": {
+        "label": "النوع",
+        "genders": ["ذكر", "انثي"]
+      }
+    },
+    "button": "إنشاء حساب",
+    "account": "لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول"
   }
 }

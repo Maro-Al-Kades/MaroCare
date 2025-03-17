@@ -19,7 +19,10 @@
         "path": "/contact"
       }
     ],
-    "buttons": ["Login", "Register"]
+    "buttons": [
+      { "title": "Login", "path": "/auth/login" },
+      { "title": "Register", "path": "/auth/register" }
+    ]
   },
 
   "homePage": {
@@ -180,5 +183,57 @@
       ],
       "button": "Book Appointment"
     }
+  },
+
+  "register-page": {
+    "title": "Create Your Medical Account",
+    "description": "Enter your details to register",
+    "form": {
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "bloodType": {
+        "label": "Blood Type",
+        "placeholder": "Select blood type"
+      },
+      "gender": {
+        "label": "Gender",
+        "genders": ["Male", "Female"]
+      }
+    },
+    "button": "Create Account",
+    "account": "Already have an account?",
+    "login": "Log in"
+  },
+
+  "login-page": {
+    "title": "Login to Your Account",
+    "description": "Enter your credentails to access your account",
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      }
+    },
+    "button": "Login",
+    "account": "Don't have an account",
+    "register": "Register Now"
   }
 }

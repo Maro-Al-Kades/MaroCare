@@ -19,7 +19,10 @@
         "path": "/contact"
       }
     ],
-    "buttons": ["Connexion", "S'inscrire"]
+    "buttons": [
+      { "title": "Connexion", "path": "/auth/login" },
+      { "title": "S'inscrire", "path": "/auth/register" }
+    ]
   },
   "homePage": {
     "hero": {
@@ -144,6 +147,7 @@
       "button": "Rechercher"
     }
   },
+
   "doctor-id": {
     "card": {
       "ticket": "Prix du billet",
@@ -165,5 +169,54 @@
       ],
       "button": "Prendre rendez-vous"
     }
+  },
+
+  "login-page": {
+    "title": "Connectez-vous à votre compte",
+    "description": "Entrez vos informations d'identification pour accéder à votre compte",
+    "form": {
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Entrez votre adresse e-mail"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Entrez votre mot de passe"
+      }
+    },
+    "button": "Se connecter",
+    "account": "Vous n'avez pas de compte?",
+    "register": "Inscrivez-vous maintenant"
+  },
+
+  "register-page": {
+    "title": "Créez Votre Compte Médical",
+    "description": "Entrez vos informations pour vous inscrire",
+    "form": {
+      "fullName": {
+        "label": "Nom Complet",
+        "placeholder": "Entrez votre nom complet"
+      },
+      "email": {
+        "label": "Adresse Email",
+        "placeholder": "Entrez votre adresse email"
+      },
+      "password": {
+        "label": "Mot de Passe",
+        "placeholder": "Entrez votre mot de passe"
+      },
+      "phone": {
+        "label": "Numéro de Téléphone",
+        "placeholder": "Entrez votre numéro de téléphone"
+      },
+      "bloodType": {
+        "label": "Groupe Sanguin",
+        "placeholder": "Sélectionnez votre groupe sanguin"
+      },
+      "gender": ["Homme", "Femme"]
+    },
+    "button": "Créer un compte",
+    "account": "Vous avez déjà un compte ?",
+    "login": "Se connecter"
   }
 }

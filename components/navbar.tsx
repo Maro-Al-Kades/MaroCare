@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Navbar as HeroUINavbar,
   NavbarContent,
@@ -20,8 +22,10 @@ import { useTranslations } from "next-intl";
 import { Icon } from "@iconify/react";
 import LangSwitch from "./lang-switch";
 import { Image } from "@heroui/image";
+import { useUserStore } from "@/lib/zustand";
 
 export const Navbar = () => {
+  const { user } = useUserStore();
   const i18 = useTranslations("navbar");
 
   const buttons = i18.raw("buttons");
@@ -34,6 +38,7 @@ export const Navbar = () => {
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Image src="/logo.svg" height={220} isBlurred />
             {/* <p className="font-bold text-primary text-xl">{i18("logo")}</p> */}
+            {user ? "welcome user" : "no user"}
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -63,10 +68,11 @@ export const Navbar = () => {
           <LangSwitch />
         </NavbarItem>
         <NavbarItem className="hidden md:flex gap-2">
-          {buttons.map((btn: string, index: number) => (
+          {buttons.map((btn: any, index: number) => (
             <Button
               key={index}
               as={Link}
+              href={btn.path}
               color="primary"
               variant={index === 1 ? "flat" : "solid"} // تغيير الـ variant للتاني بس
               endContent={
@@ -81,7 +87,7 @@ export const Navbar = () => {
                 )
               }
             >
-              {btn}
+              {btn.title}
             </Button>
           ))}
         </NavbarItem>
